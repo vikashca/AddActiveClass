@@ -1,0 +1,8 @@
+ setTimeout(() => {
+    function myFunction(e) {
+      if (document.querySelector('.menu2 a.active') !== null) {
+        document.querySelector('.menu2 a.active').classList.remove('active');
+      }
+      e.target.className = "active";
+    }
+  }, 500);
